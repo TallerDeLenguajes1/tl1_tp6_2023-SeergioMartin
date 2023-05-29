@@ -1,0 +1,15 @@
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\bin\Debug\net7.0\practico6.exe
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\bin\Debug\net7.0\practico6.deps.json
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\bin\Debug\net7.0\practico6.runtimeconfig.json
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\bin\Debug\net7.0\practico6.dll
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\bin\Debug\net7.0\practico6.pdb
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.csproj.AssemblyReference.cache
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.GeneratedMSBuildEditorConfig.editorconfig
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.AssemblyInfoInputs.cache
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.AssemblyInfo.cs
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.csproj.CoreCompileInputs.cache
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.dll
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\refint\practico6.dll
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.pdb
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\practico6.genruntimeconfig.cache
+D:\TallerDeLenguajes1\tl1_tp6_2023-SeergioMartin\practico6\obj\Debug\net7.0\ref\practico6.dll
