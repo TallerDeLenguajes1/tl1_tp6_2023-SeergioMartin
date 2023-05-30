@@ -35,8 +35,9 @@ if (num > 0)
 }
 */
 
-// EJERCICIO 2
+// EJERCICIO 2 y 3
 string? cadena;
+double valorAbsoluto, cuadrado, raizCuadrada, seno, coseno, parteEntera, maximo, minimo;
 int opcion = 0, otra = 0;
 float num1, num2, resultado = 0;
 bool valido = false;
@@ -44,12 +45,14 @@ do
 {
     if (otra != 1)
     {
-        System.Console.WriteLine("*****MENU*****");
+        System.Console.WriteLine("**********MENU**********");
         System.Console.WriteLine("1. Sumar");
         System.Console.WriteLine("2. Restar");
         System.Console.WriteLine("3. Multiplicar");
         System.Console.WriteLine("4. Dividir");
-        System.Console.WriteLine("5. Salir");
+        System.Console.WriteLine("5. Operaciones Avanzadas");
+        System.Console.WriteLine("6. Salir");
+        System.Console.WriteLine("************************");
         System.Console.WriteLine("--Seleccione una opcion:");
         cadena = Console.ReadLine();
         int.TryParse(cadena, out opcion);
@@ -83,6 +86,22 @@ do
             }
             break;
         case 5:
+            num1 = Numeros();
+                valorAbsoluto = Math.Abs(num1);
+                cuadrado = Math.Pow(num1, 2);
+                raizCuadrada = Math.Sqrt(num1);
+                seno = Math.Sin(num1);
+                coseno = Math.Cos(num1);
+                parteEntera = Math.Truncate(num1);
+                System.Console.WriteLine("Valor Absoluto: "+valorAbsoluto+"\nCuadrado: "+cuadrado+"\nRaiz Cuadrada: "+raizCuadrada+"\nSeno: "+seno+"\nCoseno: "+coseno+"\nParte Entera: "+parteEntera);
+            System.Console.WriteLine("Calcular Maximo y Minimo:");
+            num1 = Numeros();
+            num2 = Numeros();
+                maximo = Math.Max(num1,num2);
+                minimo = Math.Min(num1,num2);
+                System.Console.WriteLine("Maximo: "+maximo+"\nMinimo: "+minimo);
+            break;
+        case 6:
             break;
     }
     if (opcion >=1 && opcion <=4){
@@ -92,7 +111,7 @@ do
         cadena = Console.ReadLine();
         int.TryParse(cadena, out otra);
     }
-} while (opcion != 5);
+} while (opcion != 6);
 
 float Numeros(){
     float num = 0;
