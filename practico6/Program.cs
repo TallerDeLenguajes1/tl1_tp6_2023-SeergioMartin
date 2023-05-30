@@ -36,6 +36,7 @@ if (num > 0)
 */
 
 // EJERCICIO 2 y 3
+/*
 string? cadena;
 double valorAbsoluto, cuadrado, raizCuadrada, seno, coseno, parteEntera, maximo, minimo;
 int opcion = 0, otra = 0;
@@ -127,4 +128,6 @@ float Numeros(){
     }
     valido = false;
     return num;
-}
+}*/
+
+// EJERCICIO 4
