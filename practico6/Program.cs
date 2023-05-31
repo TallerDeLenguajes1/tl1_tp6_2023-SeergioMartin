@@ -131,3 +131,49 @@ float Numeros(){
 }*/
 
 // EJERCICIO 4
+string? cadena, cadena2, ocurrencia;
+string concatenar, subCadena, mayus, minus;
+string[] palabras;
+bool justificacion;
+int longitud, espacio, cont=0;
+System.Console.WriteLine("--Ingrese una cadena de texto:");
+cadena = Console.ReadLine();
+System.Console.WriteLine("--Ingrese una segunda cadena de texto:");
+cadena2 = Console.ReadLine();
+if (cadena != null && cadena2 != null)
+{
+    longitud = cadena.Length;
+    System.Console.WriteLine("Longitud de la primera cadena: "+longitud);
+    espacio = cadena.IndexOf(" ",0);
+    subCadena = cadena.Substring(espacio);
+    System.Console.WriteLine("Subcadena: "+subCadena);
+    concatenar = cadena + " " + cadena2;
+    System.Console.WriteLine("Concatenacion: "+concatenar);
+    /* Busque el comportamiento del Método ToString():
+    El método ToString simplemente convierte una variable de cualquier tipo en un objeto del tipo String.
+    */
+    foreach (char letra in cadena)
+    {
+        System.Console.WriteLine("Caracter: "+letra);
+    }
+    mayus = cadena.ToUpper();
+    System.Console.WriteLine("Mayusculas: "+mayus);
+    minus = cadena2.ToLower();
+    System.Console.WriteLine("Minusculas: "+minus);
+    System.Console.WriteLine("--Ingrese una ocurrencia a buscar:");
+    ocurrencia = Console.ReadLine();
+    if (ocurrencia != null)
+    {
+        palabras = cadena.Split(" ");
+        longitud = palabras.Length;
+        for (int i = 0; i < longitud; i++)
+        {
+            justificacion = palabras[i].StartsWith(ocurrencia);
+            if (justificacion)
+            {
+                cont ++;
+            }
+        }
+        System.Console.WriteLine("La palabra: "+ocurrencia+", se repite: "+cont+", en la cadena: "+cadena);
+    }
+}
